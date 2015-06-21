@@ -1,0 +1,3 @@
+title: Smart Developer Hub Ontology
+redirect_to:
+  - https://cdn.rawgit.com/SmartDeveloperHub/sdh-vocabulary/master/src/main/resources/vocabulary/v1/sdh.ttl
