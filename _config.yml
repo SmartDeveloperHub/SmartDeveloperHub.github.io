@@ -1,5 +1,0 @@
-gems:
-  - jekyll-redirect-from
-  
-encoding: "utf-8"
-markdown_ext: "ttl,rdf,"
