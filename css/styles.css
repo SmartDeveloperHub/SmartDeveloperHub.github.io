@@ -28,6 +28,27 @@ body {
     height: 100%;
 }
 
+#githubflyinlink {
+    position: absolute;
+    right: 5%;
+    top: 43px;
+    cursor: pointer;
+}
+
+#flyingIco {
+    color: black;
+    font-size: 50px;
+}
+
+#flyingLabel {
+    color: transparent;
+    font-size: 20px;
+}
+
+#githubflyinlink:hover span{
+    color: #FFF;
+}
+
 .footer-container {
 background-color: #FFF;
 height: 130px;
