@@ -16,16 +16,12 @@
 </head>
 
 <body>
-	<a id="githubflyinlink" target="blank_" href="https://github.com/SmartDeveloperHub">
-		<span id="flyingIco" class="fa fa-github"></span>
-		<span id="flyingLabel"> GitHub</span>
-	</a>
     <div class="dashContainer" ng-app>
-        <div class="section initial-section section-shadow gradient-2 white wow pulse animated" data-wow-duration="3s" data-wow-iteration="infinite" data-wow-delay="300ms">
+        <div id="introBox" class="section initial-section section-shadow wow pulse animated" data-wow-duration="3s" data-wow-iteration="infinite" data-wow-delay="300ms">
             <div class="container">
                 <div class="row">
                     <div class="center-block p4 initial-section-content">
-                        <h2 class="h1 page-title">Smart Developer Hub</h2>
+                        <img id="sdhlogo" src="images/sdh_400ppp_RGB.png"></img>
                         <p class="h4 page-title-content up">
                             Smart Developer Hub provides insights about the performance of
                             software development teams by generating quantitative and qualitative
@@ -37,11 +33,21 @@
                             and interoperability in mind in order to facilitate the integration of heterogeneous 
                             ALM tools and the provision of tool-independent metrics.
                         </p>
+                        <div id="linkd">
+                            <a type="button" class="btn btn-primary sdhbutton" id="goToDemo"  target="blank_" href="http://demo.smartdeveloperhub.org:9003">
+                                <span class="buttonIco fa fa-sellsy"></span>
+                                <span class="buttonLabel">Try our live demo</span>
+                            </a>
+                            <a type="button" class="btn btn-primary sdhbutton" id="goToGithub"  target="blank_" href="https://github.com/SmartDeveloperHub">
+                                <span class="buttonIco fa fa-github"></span>
+                                <span class="buttonLabel">Follow us in Github</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="arqPanel" class="section feature-section gradient-1">
+        <div id="arqPanel" class="section feature-section">
             <div class="container">
                 <div class="row">
                     <div class="row">
