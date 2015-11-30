@@ -142,7 +142,7 @@ body {
 
 #introBox {
     color: #4B4B4C;
-    padding-bottom: 65px;
+    padding-bottom: 50px;
 }
 
 #sdhlogo {
@@ -162,12 +162,44 @@ body {
     cursor: pointer;
     margin: 20px;
     margin-bottom: 5px;
+    vertical-align: top;
 }
 
 #goToGithub {
 }
 
+#infoDemoLink {
+    font-family: Roboto;
+    color: #FFB0B0;
+    font-size: 11px;
+    opacity: 0;
+    -webkit-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+    height: 0;
+}
+
+#infoDemoLink .icoL {
+    font-family: FontAwesome;
+    color: #E2DB00;
+    font-size: 12px;
+}
+
+#infoDemoLink .labelL {
+    font-family: Roboto
+    color: red;
+    font-size: 11px;
+}
+
 #goToDemo {
+}
+
+#goToDemo:hover #infoDemoLink {
+    opacity: 1;
+    height: 15px;
+    -webkit-transition: all ease-in-out .20s;
+    -o-transition: all ease-in-out .20s;
+    transition: all ease-in-out .20s;
 }
 
 .buttonIco {
@@ -287,7 +319,7 @@ body {
     box-shadow: inset 1px -35px 68px -5px #F0F5FA;
 }
 .initial-section {
-    min-height: 360px;
+    min-height: 534px;
     width: 100%;
 }
 .initial-section-content{
