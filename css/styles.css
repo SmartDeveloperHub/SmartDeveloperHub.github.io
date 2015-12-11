@@ -576,3 +576,12 @@ body {
 #arqPanel .parr .first {
     padding-bottom: 20px;
 }
+
+/* Video Player */
+.dashContainer {
+    text-align: center;
+}
+
+.youtube-player {
+    margin: 15px;
+}
