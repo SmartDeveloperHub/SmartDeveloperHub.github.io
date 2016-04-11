@@ -311,7 +311,7 @@ body {
     width: 77%;
     display: inline-block;
     border-radius: 10px;
-    margin-top: 35px;
+    margin-top: 18px;
 }
 
 .section-shadow {
@@ -480,6 +480,26 @@ body {
     margin-right:-4px;
     vertical-align: top;
 }
+
+#sdhteamlogo {
+    width: 81px;
+    display: inline-block;
+    margin-right: 26px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: -55px;
+}
+
+#teamTitle {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4B4B4C;
+    font-family: Roboto;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
 .card {
     height: 125px;
     white-space: nowrap;
@@ -518,6 +538,7 @@ body {
 img.card-avatar {
     margin: 0;
     margin-right: 10px;
+    object-fit: cover;
 }
 
 .card-avatar {
