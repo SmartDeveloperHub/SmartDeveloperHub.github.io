@@ -34,48 +34,48 @@ $(document).ready(function(){
     var teamM = [
         {
             name: "Fernando Serena",
-            avatar: "https://secure.gravatar.com/avatar/7fb931bbf23f7b52bdc5fa55afcebd24.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0000-192.png",
+            avatar: "images/fserena.jpeg",
             email: "fernando.serena@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/fernando-serena-7575a63b"
         },
         {
             name: "Carlos Blanco Vallejo",
-            avatar: "https://avatars0.githubusercontent.com/u/3510628?v=3&s=460",
+            avatar: "images/cblanco.png",
             email: "carlos.blanco@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/carlos-blanco-vallejo-05443013"
         },
         {
             name: "Miguel Esteban Gutiérrez",
-            avatar: "https://avatars.slack-edge.com/2015-09-25/11345882452_7bdf4b4933babb8275e3_original.jpg",
+            avatar: "images/mesteban.jpg",
             email: "miguel.esteban@centeropenmiddleware.com"
         },
         {
             name: "Alejandro Vera",
-            avatar: "https://avatars.slack-edge.com/2015-10-16/12623706483_c0f70e5c666dc4318ea1_original.jpg",
+            avatar: "images/avera.jpg",
             email: "carlos.blanco@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/alejandroveradejuan"
         },
         {
             name: "María Poveda",
-            avatar: "https://avatars.slack-edge.com/2016-03-30/30543274837_b5cbe29e8bf2dd9f9780_512.jpg",
+            avatar: "images/mpoveda.jpg",
             email: "mpoveda@fi.upm.es",
             linkedin: "https://es.linkedin.com/in/mpovedavillalon"
         },
         {
             name: "Alejandro F. Carrera",
-            avatar: "https://avatars.slack-edge.com/2015-10-29/13462251667_a374aacb724f9a740e50_original.jpg",
+            avatar: "images/Foto_Carnet_afc.png",
             email: "alejandro.fernandez.carrera@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/alejandrofcarrera"
         },
         {
             name: "Ignacio Molina Cuquerella",
-            avatar: "https://avatars.slack-edge.com/2016-02-12/21103675760_f343e6c69081779eff84_512.png",
+            avatar: "images/nacho.png",
             email: "imolina@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/ignacio-molina-cuquerella-73172825"
         },
         {
             name: "Andrés García",
-            avatar: "https://avatars.slack-edge.com/2015-10-19/12758105063_5f391c5e03744401b1b0_original.jpg",
+            avatar: "images/andres.jpg",
             email: "hgarcia@fi.upm.es",
             linkedin: "https://es.linkedin.com/in/andrés-garcía-silva-b0304015"
         },
