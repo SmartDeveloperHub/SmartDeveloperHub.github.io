@@ -125,6 +125,35 @@
                 </div>
             </div>
         </div>
+        <div id="teamPane" class="section SDH-team">
+            <div class="teamContainer">
+                <div class="row">
+                    <div class="row">
+                        <div class="wow pulse animated">
+                            <h2 class="h1 arqTitle">Smart Developer Hub Team</h2>
+                        </div>
+                    </div>
+                    <div class="row row-centered card-list">
+                        <div class="col-sm-3 col-centered card" ng-repeat="member in teamM | orderBy:'name'" ng-show="true">
+                            <div class="avatarCotainer">
+                                <img class="card-avatar" ng-src="{{ member.avatar }}" alt="{{ member.name }}">
+                            </div>
+                            <div class="memberData">
+                                <span class="card-name">{{ member.name }}</span>
+                                <div class="icoLab">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="card-mail" title="{{ member.email }}">{{ member.email }}</span>
+                                </div>
+                                <div class="icoLab" ng-if="member.linkedin">
+                                    <i class="fa fa-linkedin-square linkedintLink"></i>
+                                    <a class="card-linkedin"  title="{{ member.linkedin }}" >{{ member.linkedin }}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div> <!-- dashContainer -->
 	<footer class="footer-container">
 	    <div class="row">
