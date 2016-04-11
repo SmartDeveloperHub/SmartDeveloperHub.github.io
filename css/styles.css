@@ -311,6 +311,7 @@ body {
     width: 77%;
     display: inline-block;
     border-radius: 10px;
+    margin-top: 35px;
 }
 
 .section-shadow {
@@ -468,6 +469,7 @@ body {
 /* centered columns styles */
 .row-centered {
     text-align:center;
+    overflow: visible;
 }
 .col-centered {
     display:inline-block;
@@ -479,40 +481,52 @@ body {
     vertical-align: top;
 }
 .card {
-    height: 105px;
+    height: 125px;
+    white-space: nowrap;
     margin: 10px;
-    cursor: pointer;
     border-radius: 12px;
     -webkit-box-shadow: 0 0 4px -2px rgba(0,0,0,0.65);
     -moz-box-shadow: 0 0 4px -2px rgba(0,0,0,0.65);
     box-shadow: 0 0 4px -2px rgba(0,0,0,0.65);
     vertical-align: middle;
-    border: solid 1px rgba(128, 128, 128, 0.24);
-    background-color: #FFF;
-    width: 300px;
+    width: 330px;
+    font-family: Roboto;
 }
 
 .card.card_backg {
     background-color: #E6E6E6;
 }
 
-.card.card_backg:hover {
-    background-color: rgba(159, 206, 35, 0.53);
-    border: solid 1px #9FCE23;
+.icoLab {
+    display: block;
+    margin-bottom: 5px;
 }
 
-.card:hover {
-    background-color: #FFB88A;
-    border: solid 1px #F7853C;
+.icoLab i {
+    color: #014C8B;
+    margin-right: 3px;
+    font-size: 12px;
+}
+
+.avatarCotainer {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+img.card-avatar {
+    margin: 0;
+    margin-right: 10px;
 }
 
 .card-avatar {
     display: inline-block;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     border: solid 1px rgba(186, 186, 186, 0.34);
-    vertical-align: middle;
-    border-radius: 2px;
+    vertical-align: top;
+    border-radius: 12px;
 }
 
 .card-avatar-rep {
@@ -523,15 +537,44 @@ body {
     border-radius: 2px;
 }
 
-.card-name {
-    margin-left: 10px;
-    font-size: 22px;
-    width: 180px;
+span.card-name {
+    color: #4B4B4C;
+    margin-bottom: 7px;
+}
+
+.card-linkedin {
+    text-overflow: ellipsis;
+    width: 185px;
+    overflow: hidden;
     display: inline-block;
-    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.memberData {
+    display: inline-block;
+    width: 203px;
+    height: 100%;
+}
+
+.card-name {
+    font-size: 17px;
+    white-space: normal;
+    vertical-align: middle;
+    overflow: hidden;
+    width: 203px;
+    display: inline-block;
+}
+
+.card-mail {
+    font-size: 12px;
+    width: 182px;
+    white-space: normal;
+    vertical-align: middle;
     overflow: hidden;
     text-overflow: ellipsis;
-    vertical-align: middle;
+    display: inline-block;
 }
 .helper {
     display: inline-block;
