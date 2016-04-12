@@ -56,7 +56,7 @@ $(document).ready(function(){
             sorted: 5,
             name: "Alejandro Vera",
             avatar: "images/avera.jpg",
-            email: "carlos.blanco@centeropenmiddleware.com",
+            email: "alejandro.vera@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/alejandroveradejuan"
         },
         {
