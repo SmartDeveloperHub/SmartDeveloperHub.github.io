@@ -33,47 +33,55 @@ angular.element(".teamContainer").ready(function () {
 $(document).ready(function(){
     var teamM = [
         {
+            sorted: 1,
             name: "Fernando Serena",
             avatar: "images/fserena.jpeg",
             email: "fernando.serena@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/fernando-serena-7575a63b"
         },
         {
+            sorted: 3,
             name: "Carlos Blanco Vallejo",
             avatar: "images/cblanco.png",
             email: "carlos.blanco@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/carlos-blanco-vallejo-05443013"
         },
         {
+            sorted: 2,
             name: "Miguel Esteban Gutiérrez",
             avatar: "images/mesteban.jpg",
             email: "miguel.esteban@centeropenmiddleware.com"
         },
         {
+            sorted: 5,
             name: "Alejandro Vera",
             avatar: "images/avera.jpg",
             email: "carlos.blanco@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/alejandroveradejuan"
         },
         {
+            sorted: 4,
             name: "María Poveda",
             avatar: "images/mpoveda.jpg",
             email: "mpoveda@fi.upm.es",
             linkedin: "https://es.linkedin.com/in/mpovedavillalon"
         },
         {
+            sorted: 8,
             name: "Alejandro F. Carrera",
             avatar: "images/Foto_Carnet_afc.png",
             email: "alejandro.fernandez.carrera@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/alejandrofcarrera"
         },
         {
+            sorted: 6,
             name: "Ignacio Molina Cuquerella",
             avatar: "images/nacho.png",
             email: "imolina@centeropenmiddleware.com",
             linkedin: "https://es.linkedin.com/in/ignacio-molina-cuquerella-73172825"
         },
         {
+            sorted: 7,
             name: "Andrés García",
             avatar: "images/andres.jpg",
             email: "hgarcia@fi.upm.es",

@@ -135,7 +135,7 @@
                         </div>
                     </div>
                     <div class="row row-centered card-list">
-                        <div class="col-sm-3 col-centered card" ng-repeat="member in teamM | orderBy:'name'" ng-show="true">
+                        <div class="col-sm-3 col-centered card" ng-repeat="member in teamM | orderBy:'sorted'" ng-show="true">
                             <div class="avatarCotainer">
                                 <img class="card-avatar" ng-src="{{ member.avatar }}" alt="{{ member.name }}">
                             </div>
