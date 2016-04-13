@@ -130,8 +130,7 @@
                 <div class="row">
                     <div class="row">
                         <div class="wow pulse animated">
-                            <img id="sdhteamlogo" src="images/sdh_400ppp_RGB_imagotipo_small.png">
-                            <div id="teamTitle">Smart Developer Hub Team</div>
+                            <div id="teamTitle">Development Team</div>
                         </div>
                     </div>
                     <div class="row row-centered card-list">
@@ -143,11 +142,11 @@
                                 <span class="card-name">{{ member.name }}</span>
                                 <div class="icoLab">
                                     <i class="fa fa-envelope-o"></i>
-                                    <a href="mailto:{{ member.email }}" class="card-mail" title="{{ member.email }}">{{ member.email }}</a>
+                                    <a href="mailto:{{ member.email }}" class="card-mail" title="{{ member.email }}" target="_blank">{{ member.email }}</a>
                                 </div>
                                 <div class="icoLab" ng-if="member.linkedin">
                                     <i class="fa fa-linkedin-square linkedintLink"></i>
-                                    <a class="card-linkedin"  title="{{ member.linkedin }}" >{{ member.linkedin }}</a>
+                                    <a class="card-linkedin"  title="{{ member.linkedin }}" href="{{ member.linkedin }}" target="_blank">{{ member.name }}</a>
                                 </div>
                             </div>
                         </div>
