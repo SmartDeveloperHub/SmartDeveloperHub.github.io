@@ -490,6 +490,22 @@ body {
     margin-left: -55px;
 }
 
+#sdhprofflogo1 {
+    width: 72px;
+    display: inline-block;
+    margin-right: 72px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: -106px;
+}
+#sdhprofflogo2 {
+    width: 72px;
+    display: inline-block;
+    margin-right: 26px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: -55px;
+}
 #teamTitle {
     font-size: 32px;
     font-weight: bold;
@@ -497,7 +513,7 @@ body {
     font-family: Roboto;
     display: inline-block;
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 42px;
 }
 
 .card {

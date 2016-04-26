@@ -153,6 +153,33 @@
                     </div>
                 </div>
             </div>
+            <div class="proffContainer">
+                <div class="row">
+                    <div class="row">
+                        <div class="wow pulse animated">
+                            <div id="teamTitle">Project Managers</div>
+                        </div>
+                    </div>
+                    <div class="row row-centered card-list">
+                        <div class="col-sm-3 col-centered card" ng-repeat="p in proff | orderBy:'sorted'" ng-show="true">
+                            <div class="avatarCotainer">
+                                <img class="card-avatar" ng-src="{{ p.avatar }}" alt="{{ p.name }}">
+                            </div>
+                            <div class="memberData">
+                                <span class="card-name">{{ p.name }}</span>
+                                <div class="icoLab">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <a href="mailto:{{ p.email }}" class="card-mail" title="{{ p.email }}" target="_blank">{{ p.email }}</a>
+                                </div>
+                                <div class="icoLab" ng-if="p.linkedin">
+                                    <i class="fa fa-linkedin-square linkedintLink"></i>
+                                    <a class="card-linkedin"  title="{{ p.linkedin }}" href="{{ p.linkedin }}" target="_blank" >{{ p.linkedin }}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div> <!-- dashContainer -->
 	<footer class="footer-container">

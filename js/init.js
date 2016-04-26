@@ -93,4 +93,30 @@ $(document).ready(function(){
     $scope.$apply(function () {
         $scope.teamM = teamM;
     });
-}) 
+
+    var proff = [
+        {
+            sorted: 1,
+            name: "Asunción Gómez Pérez",
+            avatar: "images/asun_oeg.png",
+            email: "asun@fi.upm.es"
+        },
+        {
+            sorted: 2,
+            name: "Javier Soriano",
+            avatar: "images/jsoriano.jpg",
+            email: "jsoriano@fi.upm.es"
+        },
+        {
+            sorted: 3,
+            name: "Oscar Corcho",
+            avatar: "images/ocorcho.png",
+            email: "ocorcho@fi.upm.es"
+        }
+    ];
+    $scope = angular.element(".proffContainer").scope();
+
+    $scope.$apply(function () {
+        $scope.proff = proff;
+    });
+})
